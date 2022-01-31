@@ -1,0 +1,189 @@
+.navbarsection{
+    width: auto;
+    padding-top: 1rem;
+    height: 100%;
+}
+#navbarcontainer{
+    display: flex;
+    justify-content: space-between;
+}
+.leftnavbar{
+    padding-top: 1rem;
+}
+.navbarlinks{
+    display: none;
+}
+.landifylogo{
+    display: flex;
+    position: absolute;
+    left: 20px;
+}
+.rightbarcontainer{
+    display: none;
+}
+.nav-toggle-label{
+    padding-top: 0.8rem;
+}
+
+
+/* Text Section */
+#text-section{
+    margin: 0px;
+}
+.text-section-container{
+    display: block;
+    margin: 0px !important;
+    /* display: flex; */
+    width: 100%;
+    padding-top: 5rem;
+    /* align-items: center; */
+    /* margin: 0 5rem; */
+    flex-direction: column;
+}
+.text-section-2{
+    padding-bottom: 5rem;
+}
+.left-text-line h1{
+    font-size: 36px;
+}
+.phonemockup{
+    max-width: 100%;
+}
+
+@media (max-width: 414px){
+    .image1{
+        grid-column-start: 1 !important;
+    }
+    .image5{
+        grid-column-start: 1 !important;
+    }
+}
+
+@media (max-width: 390px) {
+    .navbarsection{
+        width: 100% !important;
+    }    
+}
+@media (max-width: 375px){
+    .partnerscontainer {
+        display: grid;
+        grid-template-columns: repeat(2,1fr) !important;
+        grid-template-rows: 1fr 1fr;
+        margin: 0 auto;
+        gap: 1rem !important;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .partners-1{
+        width: 90% !important;
+    }
+    .image1{
+        grid-column-start: 1 !important;
+    }
+    .image3{
+        grid-column-start: 1 !important;
+    }
+    .image4{
+        grid-column-start: 2 !important;
+    }
+    .image5{
+        grid-column-start: 1 !important;
+    }
+}
+
+
+/* Partners Section */
+.partners-1{
+    text-align: center;
+}
+.partnerscontainer {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+    gap: 1.5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.image1{
+    grid-column-start: 1;
+}
+.image3{
+    grid-column-start: 1;
+}
+.image4{
+    grid-column-start: 2;
+}
+.image5{
+    grid-column-start: 1;
+}
+
+/* Work Section */
+#work-section {
+    padding: 0px 0px;
+    margin: 0 1.5rem;
+}
+.grid-line-container{
+    display: block !important;
+}
+.section-1{
+    padding-bottom: 3rem;
+}
+.work-section-header-container h1{
+    font-size: 36px;
+}
+#grid-line-text-size{
+    font-size: 24px !important;
+}
+
+
+/* Comment Section */
+.text-line h1{
+    font-size: 30px !important;
+    padding-left: 0.4rem;
+}
+.quote-img{
+    padding-top: 2.2rem;
+    padding-left: 1.1rem;
+}
+.top-line-container{
+    padding-left: 1rem !important;
+}
+#quote-img-inside{
+    width: 95.58px;
+    height: 78px;
+}
+
+.bottom-line{
+    width: 335px !important;
+    height: 424px !important;
+}
+.right-top-line{
+    width: 335px !important;
+    height: 368px !important;
+}
+.right-bottom-line{
+    width: 335px !important;
+    height: 284px !important;
+}
+
+/* Footer Section */
+#footer-section{
+    height: auto;
+}
+.footer-section-big-container{
+    margin: 0 1rem;
+    padding-bottom: 2rem;
+    flex-direction: column;
+}
+.sub-section-1{
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+}
+.sub-section-2{
+    gap: 0.5rem !important;
+}
+.right-side-container{
+    margin: 0px;
+}

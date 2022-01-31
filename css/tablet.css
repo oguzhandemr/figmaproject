@@ -1,0 +1,152 @@
+.navbarlinks{
+    display: none;
+}
+.navbarsection{
+    padding: 1rem;
+}
+.leftnavbar{
+    align-items: center;
+}
+.rightbarcontainer{
+    padding-left: 13rem;
+}
+.hamburger-menu{
+    display: block;
+}
+
+/* Text Section */
+#text-section{
+    margin: 0px;
+}
+.text-section-2{
+    padding-bottom: 5rem;
+}
+.text-section-container{
+    margin: 0px;
+    display: flex;
+    width: 100%;
+    padding-top: 5rem;
+    align-items: center;
+    margin: 0 5rem;
+    flex-direction: column;
+}
+#phonemockup{
+    width: 100%;
+}
+
+
+/* Partners Section */
+
+.partnerscontainer{
+    padding-bottom: 3rem;
+}
+
+.image1{
+    grid-column-start: 2;
+}
+.image5{
+    grid-column-start: 3;
+}
+.partners-1{
+    width: 90% !important;
+}
+
+/* Work Section */
+
+#work-section {
+    padding: 0px;
+    margin: 0 5rem;
+}
+#work-section-header{
+    font-size: 36px;
+}
+
+#grid-line-text-size{
+    font-size: 36px;
+}
+
+.grid-line-container {
+    padding-top: 6rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    display: grid;
+    gap: 7rem;
+}
+#work-section-grid-line{
+    padding-bottom: 5rem;
+}
+#grid-line-text-size{
+    font-size: 24px;
+}
+
+/* Comment Section */
+ 
+#comment-section{
+    display: block;
+    width: 100%;
+}
+.left-right-side-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-line{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+    align-items: flex-start;
+    padding-top: 3.8rem;
+    padding-left: 1.2rem;
+    line-height: 44px;
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.text-line h1{
+    font-size: 36px;
+}
+.text-line p{
+    padding-top: 0px;
+}
+.top-line-container{
+    padding-top: 3rem;
+    padding-left: 3rem;
+}
+.top-line{
+    width: 100%;
+}
+.bottom-line{
+    width: 688px;
+    height: 284px;
+    padding: 20px;
+}
+.bottom-line-container{
+    padding-right: 0px;
+}
+.top-line-container{
+    padding-bottom: 3rem;
+}
+.right-line-big-container{
+    width: 100%;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.right-top-line{
+    width: 688px;
+    height: 284px;
+}
+.right-bottom-line{
+    width: 688px;
+    height: 256px;
+}
+
+
