@@ -13,7 +13,7 @@ html{
 }
 .navbarsection{
     background-color: #FFFFFF;
-    background: url(/images/Background.png);
+    background: url(./images/Background.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
