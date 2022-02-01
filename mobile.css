@@ -98,10 +98,10 @@
 }
 .partnerscontainer {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr 1fr 1fr;
     margin: 0 auto;
-    gap: 1.5rem;
+    gap: 2.5rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
@@ -109,13 +109,13 @@
     grid-column-start: 1;
 }
 .image3{
-    grid-column-start: 1;
-}
-.image4{
     grid-column-start: 2;
 }
+.image4{
+    grid-column-start: 3;
+}
 .image5{
-    grid-column-start: 1;
+    grid-column-start: 2 !important;
 }
 
 /* Work Section */
