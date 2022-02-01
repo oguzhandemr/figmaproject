@@ -98,7 +98,7 @@
 }
 .partnerscontainer {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4,1fr) !important;
     grid-template-rows: 1fr 1fr 1fr;
     margin: 0 auto;
     gap: 2.5rem;
