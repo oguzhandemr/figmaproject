@@ -106,13 +106,13 @@
     padding-bottom: 3rem;
 }
 .image1{
-    grid-column-start: 1;
+    grid-column-start: 2 !important;
 }
 .image3{
-    grid-column-start: 2;
+    grid-column-start: 2 !important;
 }
 .image4{
-    grid-column-start: 3;
+    grid-column-start: 3 !important;
 }
 .image5{
     grid-column-start: 2 !important;
